@@ -75,22 +75,15 @@ header li a:hover:after{
     color: rgb(224, 164, 74);
 }
 
-
 main{
     padding-top: 70px;
 }
 
-h2{
-    margin-left: 110px;
-    margin-bottom: 60px;
-}
-
-
 .kvadrati{
-    width: 300px;
-    height: 244px;
+    width: 280px;
+    height: 360px;
     background-color: none;
-    border: solid 1px black;
+    /* border: solid 1px black; */
     margin-left: 110px;
     margin-right: 30px;
     margin-bottom: 96px;
@@ -98,60 +91,71 @@ h2{
     float: left;
     position: relative;
 }
-.trackname{
+.list1{
     font-size: 18px;
-    margin-left: 12px;
-    margin-top: 146px;
+    margin-top: 52px;
 }
-.artist{
-    font-size: 14px;
-    margin-left: 12px;
-    margin-top: 14px;
+
+.list1 ol{
+    margin: 8px 0px;
 }
-.go{
+
+.kvadrati0{
+    width: 280px;
+    height: 360px;
+    background-color: none;
+    /* border: solid 1px black; */
+    margin-left: 110px;
+    margin-right: 30px;
+    margin-bottom: 96px;
+    /* padding: 100px; */
+    float: left;
+    position: relative;
+    visibility: hidden;
+}
+
+.kvadrati1{
+    width: 280px;
+    height: 360px;
+    background-color: none;
+    margin-left: 110px;
     margin-top: 120px;
+    margin-bottom: 496px;
+    margin-right: -44px;
+    float: left;
+    position: relative;
+}
+
+section:hover{
+    background-color: #e2e2e2;
+    box-shadow: 1px 1px 4px 4px #e2e2e2;
+    cursor: pointer;
 }
 
 .soundwave{
-    margin-left: 4px;
-    width: 290px;
-    height: 72px;
+    width: 300px;
+    height: 75px;
     background-image: url(../img/sound.png);
     background-size: 25%;
-    margin-top: -140px;
+    margin-left: 580px;
+    margin-top: 440px;
 }
 
-.like{
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    background-image: url(../img/like.png);
-    /* background-repeat: no-repeat; */
-    background-size: 100%;
-}
-.like:hover{
-    background-image: url(../img/like-active.png);
-    cursor: pointer;
-}
-
-.kvadrati:hover{
-    box-shadow: 1px 1px 4px 4px;
-    cursor: pointer;
+.soundwave2{
     width: 300px;
-    transition: 0.5s;
-}
-.kvadrati:hover .go{
-    border-bottom: 1px solid #000000;
-    width: 40%;
-    transition: 0.5s;
+    height: 75px;
+    background-image: url(../img/sound.png);
+    background-size: 25%;
+    margin-left: 580px;
+    margin-top: 600px;
+    margin-bottom: 10px;
 }
 
-.latesthits{
-    padding-right: 60px;
-    font-size: 24px;
+.end{
+    margin-top: -100px;
+    text-align: center;
 }
+
 
 .facebook{
     width: 50px;
@@ -167,6 +171,7 @@ h2{
     cursor: pointer;
     transition: 0.5s;
 }
+
 
 .instagram{
     width: 50px;
